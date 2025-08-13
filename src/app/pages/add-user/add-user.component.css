@@ -1,0 +1,29 @@
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.form-row label {
+  width: 180px;  
+  font-weight: 600;
+}
+
+.form-row input {
+  flex: 1;         
+  padding: 6px 8px;
+  font-size: 14px;
+}
+
+.error {
+  color: red;
+  margin-left: 180px; 
+  margin-bottom: 10px;
+}
+
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}

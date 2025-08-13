@@ -1,0 +1,17 @@
+<h2 class="title">Users List</h2>
+
+<div *ngIf="loading" class="loading">Loading users, please wait...</div>
+
+<div *ngIf="error" class="error">{{ error }}</div>
+
+<ul *ngIf="!loading && !error" class="user-list">
+  <li *ngFor="let user of users" class="user-card">
+    <h3>{{ user.name }}</h3>
+    <p><strong>Username:</strong> {{ user.username }}</p>
+    <p><strong>Email:</strong> <a href="mailto:{{ user.email }}">{{ user.email }}</a></p>
+    <p><strong>Phone:</strong> <a href="tel:{{ user.phone }}">{{ user.phone }}</a></p>
+    <p><strong>Website:</strong> 
+      <a href="http://{{ user.website }}" target="_blank" rel="noopener">{{ user.website }}</a>
+    </p>
+  </li>
+</ul>
