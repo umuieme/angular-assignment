@@ -1,6 +1,14 @@
 # AngularAssignment
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.15.
+A simple Angular client-side web application demonstrating:
+
+- Client-side navigation with Angular Router
+- Fetching and displaying data from a public API
+- A reactive form for adding users with validation
+- HTTP requests handled via Angular service
+
+It is hosted on vercel
+[https://angular-assignment-puce.vercel.app/](https://angular-assignment-puce.vercel.app/)
 
 ## Development server
 
